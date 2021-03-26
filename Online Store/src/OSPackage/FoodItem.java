@@ -26,4 +26,10 @@ public class FoodItem extends Product{
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+	public String details() {
+		
+		
+		return "";
+	}
 }

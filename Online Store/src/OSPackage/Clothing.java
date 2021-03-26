@@ -29,10 +29,15 @@ public class Clothing extends Product {
 	}
 
 	@Override
-	double putOnSale(Object criterion, int percentage) {
+	public double putOnSale(Object criterion, int percentage) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 	
+	public String details() {
+		
+		
+		return "";
+	}
 	
 }

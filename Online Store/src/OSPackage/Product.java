@@ -54,7 +54,7 @@ public abstract class Product {
 	}
 	
 	
-	double salePrice(int amt) {
+	public double salePrice(int amt) {
 		double salePrice = 0;
 		salePrice=this.price-(this.price/100*amt);
 		return salePrice;	
@@ -63,7 +63,7 @@ public abstract class Product {
 	abstract double putOnSale(Object criterion, int percentage);
 	
 	
-	double totalPrice(int amt) {
+	public double totalPrice(int amt) {
 		
 		double totalPrice = 0;
 		
@@ -75,14 +75,14 @@ public abstract class Product {
 	
 	
 	
-	void displaytoCustomer() {
+	public void displaytoCustomer() {
 		
 		
 		
 	}
 	
 	
-void displaytoAdmin() {
+	public void displaytoAdmin() {
 		
 		
 		
