@@ -13,4 +13,29 @@ public class Cart {
 	public void setItems(ArrayList<Product> items) {
 		this.items = items;
 	}
+	
+	public void AddToCart(Product p) {
+		
+		
+	}
+	public void removeItems(String id) {
+		
+	}
+	
+	public void updateItem(String id, int count) {
+		
+		
+	}
+	
+	public void clearCart() {
+		
+		
+	}
+	
+	public void viewCart() {
+		
+		
+	}
+	
+	
 }

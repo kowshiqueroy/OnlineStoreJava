@@ -30,6 +30,13 @@ public class Electronics {
 		this.specialFeatures = specialFeatures;
 	}
 	
+	public double putOnSale(Object id, int percentage) {
+		
+		return 0;
+		
+	}
+	
+	
 	
 	public String details() {
 		

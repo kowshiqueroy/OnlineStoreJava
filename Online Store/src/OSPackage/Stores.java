@@ -1,6 +1,7 @@
 package OSPackage;
 
 import java.util.ArrayList;
+import java.util.Locale.Category;
 
 public class Stores {
 	
@@ -14,4 +15,34 @@ public class Stores {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	
+	public void viewAll() {
+		
+	}
+	public void viewSpecific(Category cat) {
+		
+	}
+	public void AddProductToCart(String id, int amt) {
+		
+	}
+	public void removeItems(String id) {
+		
+	}
+	public void updateItem(String id, int count) {
+		
+	}
+	public void clearCart() {
+		
+	}
+	public void payBill() {
+		
+	}
+	public void addProduct(Product p) {
+		
+	}
+	public void PutOnSale() {
+		
+	}
+
 }
